@@ -12,11 +12,11 @@ importers:
         specifier: ^14.0.2
         version: 14.0.4
       '@heap/heap-react-native-autocapture':
-        specifier: ^0.7.1
-        version: 0.7.1(@heap/babel-plugin-heap-react-native-autocapture@0.5.1)(@heap/heap-react-native-bridge@0.7.1(react-native@0.76.7(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(@types/react@18.3.18)(react@18.3.1)))(react-native@0.76.7(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(@types/react@18.3.18)(react@18.3.1))
+        specifier: ^0.7.4
+        version: 0.7.4(@heap/babel-plugin-heap-react-native-autocapture@0.7.4)(@heap/heap-react-native-bridge@0.8.1(react-native@0.76.7(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(@types/react@18.3.18)(react@18.3.1)))(react-native@0.76.7(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(@types/react@18.3.18)(react@18.3.1))
       '@heap/heap-react-native-bridge':
-        specifier: ^0.7.1
-        version: 0.7.1(react-native@0.76.7(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(@types/react@18.3.18)(react@18.3.1))
+        specifier: ^0.8.1
+        version: 0.8.1(react-native@0.76.7(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(@types/react@18.3.18)(react@18.3.1))
       '@react-navigation/bottom-tabs':
         specifier: ^7.2.0
         version: 7.2.0(@react-navigation/native@7.0.14(react-native@0.76.7(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(@types/react@18.3.18)(react@18.3.1))(react@18.3.1))(react-native-safe-area-context@4.12.0(react-native@0.76.7(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(@types/react@18.3.18)(react@18.3.1))(react@18.3.1))(react-native-screens@4.4.0(react-native@0.76.7(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(@types/react@18.3.18)(react@18.3.1))(react@18.3.1))(react-native@0.76.7(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(@types/react@18.3.18)(react@18.3.1))(react@18.3.1)
@@ -91,8 +91,8 @@ importers:
         specifier: ^7.25.2
         version: 7.26.9
       '@heap/babel-plugin-heap-react-native-autocapture':
-        specifier: ^0.5.1
-        version: 0.5.1
+        specifier: ^0.7.4
+        version: 0.7.4
       '@types/jest':
         specifier: ^29.5.12
         version: 29.5.14
@@ -849,7 +849,7 @@ packages:
 
   '@expo/bunyan@4.0.1':
     resolution: {integrity: sha512-+Lla7nYSiHZirgK+U/uYzsLv/X+HaJienbD5AKX1UQZHYfWaP+9uuQluRB4GrEVWF0GZ7vEVp/jzaOT9k/SQlg==}
-    engines: {node: '>=0.10.0'}
+    engines: {'0': node >=0.10.0}
 
   '@expo/cli@0.22.15':
     resolution: {integrity: sha512-iXG8E+Fcyq21yM0g5hwdRyAQ9G/T0B+fAXXhwNmUP1jyoqb5wZUmld3gYycsByEJbM2TX9xKMnjtq/zyjYxYOA==}
@@ -928,21 +928,21 @@ packages:
     resolution: {integrity: sha512-ReZxZ8pdnoI3tP/dNnJdnmAk7uLT4FjsKDGW7YeDdvdOMz2XCQSmSCM9IWlrXuWtMF9zeSB6WJtEhCQ41gQOfw==}
     hasBin: true
 
-  '@heap/babel-plugin-heap-react-native-autocapture@0.5.1':
-    resolution: {integrity: sha512-tSaLPA5CbBVAyrsoixvsIX59Zhkou1ra3lhYF+5HJooGiSXEvg/5NXprywYYsSWkC6sQ/qFcTeKC6fUSa99AfQ==}
+  '@heap/babel-plugin-heap-react-native-autocapture@0.7.4':
+    resolution: {integrity: sha512-OY9csxztic2CxfvVE5dg9V4C9PTj7Kc3E6RkRJhS0sXO1q3HLDFCnBoCx6nqROr2PTNRW2VWqRs/+JpdjHf2kw==}
 
   '@heap/heap-javascript-bridge-support@0.6.0':
     resolution: {integrity: sha512-4HgpV+AV1V5MCRFqEQZJqTSqsijfK1fmsJkEnAQy96daNtpBwMdKhhkTYXwEVMtOPhFkZVrqMwGsV8LnzG1DSw==}
 
-  '@heap/heap-react-native-autocapture@0.7.1':
-    resolution: {integrity: sha512-JW+jFKIltkTz6opR5dyFbdHtVSvw71tFq6wmsf9TeHinqY2rVDmX0U/EdXIzRUkFHVJYPOzyvY61S6lrzj4BYA==}
+  '@heap/heap-react-native-autocapture@0.7.4':
+    resolution: {integrity: sha512-HpaikgilZ24B4msiLec/jmeEOmXjPdkrCQOEW8TT4CbOhD8KEaoMrtuPHU+u1Xc6PLY/F5vaR4qpWpAUsl+YVQ==}
     peerDependencies:
-      '@heap/babel-plugin-heap-react-native-autocapture': ^0.5.1
-      '@heap/heap-react-native-bridge': ^0.7.0
+      '@heap/babel-plugin-heap-react-native-autocapture': ^0.7.4
+      '@heap/heap-react-native-bridge': ^0.7.0 || ^0.8.0
       react-native: '*'
 
-  '@heap/heap-react-native-bridge@0.7.1':
-    resolution: {integrity: sha512-v8VRm4nhI02Dh401mNSCKQcfUmi3OB5iIQdHGgMg6EhR5aVrNfjQa95vrRkUdehPdXLQ6uxXgkk3ycMs2v7t7A==}
+  '@heap/heap-react-native-bridge@0.8.1':
+    resolution: {integrity: sha512-fdUzaqZNjxcqgbI85syhEaRS33SF4PdRqY3g5R9zkumbFCzIF1w9H1yrGmQeCO1cf3BpGJBr5mkNicabUGHwnA==}
     peerDependencies:
       react-native: '*'
 
@@ -5760,18 +5760,18 @@ snapshots:
       find-up: 5.0.0
       js-yaml: 4.1.0
 
-  '@heap/babel-plugin-heap-react-native-autocapture@0.5.1': {}
+  '@heap/babel-plugin-heap-react-native-autocapture@0.7.4': {}
 
   '@heap/heap-javascript-bridge-support@0.6.0': {}
 
-  '@heap/heap-react-native-autocapture@0.7.1(@heap/babel-plugin-heap-react-native-autocapture@0.5.1)(@heap/heap-react-native-bridge@0.7.1(react-native@0.76.7(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(@types/react@18.3.18)(react@18.3.1)))(react-native@0.76.7(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(@types/react@18.3.18)(react@18.3.1))':
+  '@heap/heap-react-native-autocapture@0.7.4(@heap/babel-plugin-heap-react-native-autocapture@0.7.4)(@heap/heap-react-native-bridge@0.8.1(react-native@0.76.7(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(@types/react@18.3.18)(react@18.3.1)))(react-native@0.76.7(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(@types/react@18.3.18)(react@18.3.1))':
     dependencies:
-      '@heap/babel-plugin-heap-react-native-autocapture': 0.5.1
-      '@heap/heap-react-native-bridge': 0.7.1(react-native@0.76.7(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(@types/react@18.3.18)(react@18.3.1))
+      '@heap/babel-plugin-heap-react-native-autocapture': 0.7.4
+      '@heap/heap-react-native-bridge': 0.8.1(react-native@0.76.7(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(@types/react@18.3.18)(react@18.3.1))
       hoist-non-react-statics: 3.3.2
       react-native: 0.76.7(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(@types/react@18.3.18)(react@18.3.1)
 
-  '@heap/heap-react-native-bridge@0.7.1(react-native@0.76.7(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(@types/react@18.3.18)(react@18.3.1))':
+  '@heap/heap-react-native-bridge@0.8.1(react-native@0.76.7(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(@types/react@18.3.18)(react@18.3.1))':
     dependencies:
       '@heap/heap-javascript-bridge-support': 0.6.0
       react-native: 0.76.7(@babel/core@7.26.9)(@babel/preset-env@7.26.9(@babel/core@7.26.9))(@types/react@18.3.18)(react@18.3.1)
